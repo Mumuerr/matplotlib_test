@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 mpl.rcParams['xtick.labelsize']=50
 mpl.rcParams['ytick.labelsize']=24
 
+###
 np.random.seed(42)
 
 #x轴的采样点
