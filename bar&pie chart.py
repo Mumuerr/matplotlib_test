@@ -18,7 +18,7 @@ speed_map={
     'cheetah':(120,'#e1a7a2')
 }
 
-# 整体图的标题
+### 整体图的标题
 fig=plt.figure('Bar & Pie chart')
 
 # 在整张图上加入一个子图，121的意思上在一个1行2列的子图中的第一张

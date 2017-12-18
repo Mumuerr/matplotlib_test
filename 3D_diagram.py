@@ -25,7 +25,7 @@ spectrum=np.zeros((n_grids,n_grids),dtype=np.complex)
 # 生成一段噪音，长度是（2*nf+1)**2/2
 noise=[np.complex(x,y) for x,y in np.random.uniform(-1,1,((2*nf+1)**2/2,2))]
 
-# 傅里叶谱的每一项和其共轭关于中心对称
+# 傅里叶频谱的每一项和其共轭关于中心对称
 noisy_block=np.concatenate((noise,[0j],np.conjugate(noise[::-1])))
 
 # 将生成的频谱作为低频成分
