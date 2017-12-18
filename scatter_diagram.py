@@ -42,3 +42,4 @@ plt.savefig('result.png')
 
 #一定要加上这句才能让画好的图显示在屏幕上
 plt.show()
+(12)
